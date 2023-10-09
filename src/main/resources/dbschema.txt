@@ -1,0 +1,3 @@
+create table `oder_dtls` (`order_id` integer not null, 
+`order_date` datetime(6), `address` varchar(255), 
+`order_name` varchar(255), primary key (`order_id`))
